@@ -6,7 +6,6 @@ def srch(n,list):
             list[min],list[j]=list[j],list[min]
             min=j
             
-    print(list)
     l=0
     u=len(list)-1
     while l<=u:
@@ -19,4 +18,3 @@ def srch(n,list):
             else:u=mid
     else:
         print("not found")
-srch(6,[4,6,1,3,5])
